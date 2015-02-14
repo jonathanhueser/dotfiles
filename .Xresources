@@ -1,0 +1,341 @@
+xft.dpi: 121
+xft.antialias: true
+xft.hinting: true
+xft.hintstyle: hintfull
+
+urxvt.depth: 32
+urxvt.scrollBar: false
+urxvt.font: xft:Inconsolata for Powerline:size=12:antialias=true
+urxvt.loginShell: true
+urxvt.buffered: true
+urxvt.fading: 0
+!urxvt.fadecolor: #ffffff
+urxvt.cursorBlink: true
+urxvt.secondaryScroll: true # Enable Shift-PageUp/Down in screen
+urxvt.saveLines: 5000
+urxvt.termName: rxvt-unicode-256color
+urxvt.perl-ext-common: default,matcher
+urxvt.urlLauncher: firefox
+urxvt.matcher.button: 1
+
+#define SOLARIZED
+
+#ifdef LUCIUSBLACK
+*background: #121212
+*foreground: #d7d7d7
+*cursorColor: #87afd7
+*color0: #121212
+*color8: #121212
+*color1: #ff5f5f
+*color9: #ff5f5f
+*color2: #afd787
+*color10: #afd787
+*color3: #d7d7af
+*color11: #d7d7af
+*color4: #87d7ff
+*color12: #87d7ff
+*color5: #d7afd7
+*color13: #d7afd7
+*color6: #87d7af
+*color14: #87d7af
+*color7: #d7d7d7
+*color15: #d7d7d7
+#endif
+
+#ifdef LUCIUSBLACKHIGHTCONTRAST
+*background: #121212
+*foreground: #eeeeee
+*cursorColor: #afd7ff
+*color0: #121212
+*color8: #121212
+*color1: #ff8787
+*color9: #ff8787
+*color2: #d7ffaf
+*color10: #d7ffaf
+*color3: #ffffd7
+*color11: #ffffd7
+*color4: #afffff
+*color12: #afffff
+*color5: #ffd7ff
+*color13: #ffd7ff
+*color6: #afffd7
+*color14: #afffd7
+*color7: #eeeeee
+*color15: #eeeeee
+#endif
+
+#ifdef LUCIUSBLACKLOWCONTRAST
+*background: #121212
+*foreground: #bcbcbc
+*cursorColor: #5f87af
+*color0: #121212
+*color8: #121212
+*color1: #d75f5f
+*color9: #d75f5f
+*color2: #87af5f
+*color10: #87af5f
+*color3: #afaf87
+*color11: #afaf87
+*color4: #5fafd7
+*color12: #5fafd7
+*color5: #af87af
+*color13: #af87af
+*color6: #5faf87
+*color14: #5faf87
+*color7: #bcbcbc
+*color15: #bcbcbc
+#endif
+
+#ifdef LUCIUSDARK
+*background: #303030
+*foreground: #d7d7d7
+*cursorColor: #87afd7
+*color0: #303030
+*color8: #303030
+*color1: #ff5f5f
+*color9: #ff5f5f
+*color2: #afd787
+*color10: #afd787
+*color3: #d7d7af
+*color11: #d7d7af
+*color4: #87d7ff
+*color12: #87d7ff
+*color5: #d7afd7
+*color13: #d7afd7
+*color6: #87d7af
+*color14: #87d7af
+*color7: #d7d7d7
+*color15: #d7d7d7
+#endif
+
+#ifdef LUCIUSDARKHIGHCONTRAST
+*background: #303030
+*foreground: #eeeeee
+*cursorColor: #afd7ff
+*color0: #303030
+*color8: #303030
+*color1: #ff8787
+*color9: #ff8787
+*color2: #d7ffaf
+*color10: #d7ffaf
+*color3: #ffffd7
+*color11: #ffffd7
+*color4: #afffff
+*color12: #afffff
+*color5: #ffd7ff
+*color13: #ffd7ff
+*color6: #afffd7
+*color14: #afffd7
+*color7: #eeeeee
+*color15: #eeeeee
+#endif
+
+#ifdef LUCIUSDARKLOWCONTRAST
+*background: #303030
+*foreground: #bcbcbc
+*cursorColor: #5f87af
+*color0: #303030
+*color8: #303030
+*color1: #d75f5f
+*color9: #d75f5f
+*color2: #87af5f
+*color10: #87af5f
+*color3: #afaf87
+*color11: #afaf87
+*color4: #5fafd7
+*color12: #5fafd7
+*color5: #af87af
+*color13: #af87af
+*color6: #5faf87
+*color14: #5faf87
+*color7: #bcbcbc
+*color15: #bcbcbc
+#endif
+
+#ifdef LUCIUSLIGHT
+*background: #eeeeee
+*foreground: #444444
+*cursorColor: #5f87af
+*color0: #444444
+*color8: #444444
+*color1: #af0000
+*color9: #af0000
+*color2: #008700
+*color10: #008700
+*color3: #af5f00
+*color11: #af5f00
+*color4: #005faf
+*color12: #005faf
+*color5: #870087
+*color13: #870087
+*color6: #008787
+*color14: #008787
+*color7: #eeeeee
+*color15: #eeeeee
+#endif
+
+#ifdef LUCIUSLIGHTIGHCONTRAST
+*background: #eeeeee
+*foreground: #626262
+*cursorColor: #87afd7
+*color0: #626262
+*color8: #626262
+*color1: #d70000
+*color9: #d70000
+*color2: #00af00
+*color10: #00af00
+*color3: #d78700
+*color11: #d78700
+*color4: #0087d7
+*color12: #0087d7
+*color5: #af00af
+*color13: #af00af
+*color6: #00afaf
+*color14: #00afaf
+*color7: #eeeeee
+*color15: #eeeeee
+#endif
+
+#ifdef LUCIUSWHITE
+*background: #ffffff
+*foreground: #444444
+*cursorColor: #5f87af
+*color0: #444444
+*color8: #444444
+*color1: #af0000
+*color9: #af0000
+*color2: #008700
+*color10: #008700
+*color3: #af5f00
+*color11: #af5f00
+*color4: #005faf
+*color12: #005faf
+*color5: #870087
+*color13: #870087
+*color6: #008787
+*color14: #008787
+*color7: #ffffff
+*color15: #ffffff
+#endif
+
+#ifdef LUCIUSWHITELOWCONTRAST
+*background: #ffffff
+*foreground: #626262
+*cursorColor: #87afd7
+*color0: #626262
+*color8: #626262
+*color1: #d70000
+*color9: #d70000
+*color2: #00af00
+*color10: #00af00
+*color3: #d78700
+*color11: #d78700
+*color4: #0087d7
+*color12: #0087d7
+*color5: #af00af
+*color13: #af00af
+*color6: #00afaf
+*color14: #00afaf
+*color7: #ffffff
+*color15: #ffffff
+#endif
+
+#ifdef TOMORROWDARK
+*foreground: #c5c8c6
+*background: #1d1f21
+*cursorColor: #aeafad
+*color0: #000000
+*color1: #912226
+*color2: #778900
+*color3: #ae7b00
+*color4: #1d2594
+*color5: #682a9b
+*color6: #2b6651
+*color7: #929593
+*color8: #666666
+*color9: #cc6666
+*color10: #b5bd68
+*color11: #f0c674
+*color12: #81a2be
+*color13: #b294bb
+*color14: #8abeb7
+*color15: #ecebec
+#endif
+
+#ifdef TOMORROW
+*foreground: #4d4d4c
+*background: #fafafa
+*cursorColor: #d6d6d6
+*color0: #000000
+*color8: #8e908c
+*color1: #c82829
+*color9: #ff3334
+*color2: #718c00
+*color10: #9ec400
+*color3: #f5871f
+*color11: #eab700
+*color4: #4271ae
+*color12: #5795e6
+*color5: #8959a8
+*color13: #b777e0
+*color6: #3e999f
+*color14: #54ced6
+*color7: #d6d6d6
+*color15: #efefef
+#endif
+
+#ifdef SOLARIZED
+! Common
+#define S_yellow #b58900
+#define S_orange #cb4b16
+#define S_red #dc322f
+#define S_magenta #d33682
+#define S_violet #6c71c4
+#define S_blue #268bd2
+#define S_cyan #2aa198
+#define S_green #859900
+
+! Dark
+#define S_base03 #002b36
+#define S_base02 #073642
+#define S_base01 #586e75
+#define S_base00 #657b83
+#define S_base0 #839496
+#define S_base1 #93a1a1
+#define S_base2 #eee8d5
+#define S_base3 #fdf6e3
+
+! Light
+!#define S_base03 #fdf6e3
+!#define S_base02 #eee8d5
+!#define S_base01 #93a1a1
+!#define S_base00 #839496
+!#define S_base0 #657b83
+!#define S_base1 #586e75
+!#define S_base2 #073642
+!#define S_base3 #002b36
+
+*background: S_base03
+*foreground: S_base0
+*fading: 40
+*fadeColor: S_base03
+*cursorColor: S_base1
+*pointerColorBackground: S_base01
+*pointerColorForeground: S_base1
+*color0: S_base02
+*color1: S_red
+*color2: S_green
+*color3: S_yellow
+*color4: S_blue
+*color5: S_magenta
+*color6: S_cyan
+*color7: S_base2
+*color8: S_base03
+*color9: S_orange
+*color10: S_base01
+*color11: S_base00
+*color12: S_base0
+*color13: S_violet
+*color14: S_base1
+*color15: S_base3
+#endif
